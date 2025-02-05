@@ -22,7 +22,7 @@ export const navItemsData = [
     subItems: [
       {
         name: "Quiz",
-        url: "https://elevatequiz.netlify.app",
+        url: "https://eduacademiaquiz.netlify.app",
       },
       {
         name: "Compiler",
