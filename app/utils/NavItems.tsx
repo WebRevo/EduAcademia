@@ -32,7 +32,7 @@ export const navItemsData = [
   },
   {
     name: "Meet",
-    url: "https://elevatemeet.netlify.app",
+    url: "https://eduacademiameet.netlify.app/",
   },
   {
     name: "About",
