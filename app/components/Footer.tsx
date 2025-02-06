@@ -35,9 +35,9 @@ const Footer: React.FC = () => {
   ];
 
   const serviceLinks = [
-    { name: "Meet", href: "https://elevatemeet.netlify.app" },
+    { name: "Meet", href: "https://eduacademiameet.netlify.app/" },
     { name: "Course", href: "/courses" },
-    { name: "Quiz", href: "https://elevatequiz.netlify.app" },
+    { name: "Quiz", href: "https://eduacademiaquiz.netlify.app" },
     { name: "Compiler", href: "https://elevatecompiler.netlify.app" },
   ];
 
