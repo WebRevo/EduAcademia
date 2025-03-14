@@ -125,7 +125,7 @@ const AdminSidebar = () => {
               >
                 <Link href="/" className="block">
                   <h3 className="text-[25px] font-Poppins uppercase dark:text-white text-black">
-                    ELearning
+                    EduAcademia
                   </h3>
                 </Link>
                 <IconButton
@@ -237,20 +237,6 @@ const AdminSidebar = () => {
             >
               {!isCollapsed && "Customization"}
             </Typography>
-            <Item
-              title="Hero"
-              to="/admin/hero"
-              icon={<WebIcon className="text-black dark:text-white" />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="FAQ"
-              to="/admin/faq"
-              icon={<QuizIcon className="text-black dark:text-white" />}
-              selected={selected}
-              setSelected={setSelected}
-            />
             <Item
               title="Categories"
               to="/admin/categories"
