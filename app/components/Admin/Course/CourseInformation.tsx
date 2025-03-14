@@ -161,28 +161,7 @@ const CourseInformation: FC<Props> = ({
             ${styles.input}`}
             />
           </div>
-          <div className="w-[50%]">
-            <label className={`${styles.label} w-[50%]`}>
-              Course Categories
-            </label>
-            <select
-              name=""
-              id=""
-              className={`${styles.input}`}
-              value={courseInfo.category}
-              onChange={(e: any) =>
-                setCourseInfo({ ...courseInfo, categories: e.target.value })
-              }
-            >
-              <option value="">Select Category</option>
-              {categories &&
-                categories.map((item: any) => (
-                  <option value={item.title} key={item._id}>
-                    {item.title}
-                  </option>
-                ))}
-            </select>
-          </div>
+          
         </div>
         <br />
         <div className="w-full flex justify-between">
